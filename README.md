@@ -16,11 +16,6 @@ Ensemble models by applying linear methods based different  indicators like IC/I
 * 真实回报数据true_rtn
 * 日频行情数据prices
 
-### 划分训练集/验证集/测试集
-* 确定划分的阶段n_splits
-* 根据8:1:1的划分比例大致估算出每阶段上测试集的长度test_size
-* 得到各个阶段的训练集this_all_train、验证集this_all_valid、测试集this_all_test
-* this_all_XXX是长度为n_splits的list
 
 ### 初始化聚类算法
 * **models_rtn_train**：**必传参数**，数据类型df，multi-index，各模型训练集回报数据
